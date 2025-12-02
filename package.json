@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Radios02/BackandDolgozat2#readme",
   "dependencies": {
+    "better-sqlite3": "^12.5.0",
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
   }
