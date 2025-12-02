@@ -6,6 +6,6 @@ db.prepare(
 
 export const getAllProducts = () => db.prepare(SELECT * FROM products).all(); 
 
-export const postProduct = () => db.
+export const saveProduct = (name, price, amount) => db.prepare("INSERT INTO product (name, price, amount) VALUES(?,?,?)")
 
-export const putProduct = () => db.
+export const updateProduct = () => db.
